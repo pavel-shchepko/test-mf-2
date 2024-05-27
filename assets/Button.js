@@ -1,6 +1,6 @@
-import { r as reactDomExports } from "./index-2c0iKOci.js";
-import { j as jsxRuntimeExports } from "./jsx-runtime-CpEPH1zh.js";
-import { importShared } from "./__federation_fn_import-DOZPutyD.js";
+import { r as reactDomExports } from "./index2.js";
+import { j as jsxRuntimeExports } from "./jsx-runtime.js";
+import { importShared } from "./__federation_fn_import.js";
 var client = {};
 var createRoot;
 var m = reactDomExports;

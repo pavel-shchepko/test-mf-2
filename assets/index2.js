@@ -1,5 +1,5 @@
-import { g as getDefaultExportFromCjs } from "./_commonjsHelpers-DWwsNxpa.js";
-import { r as reactExports } from "./__federation_shared_react-S49EMBpL.js";
+import { g as getDefaultExportFromCjs } from "./_commonjsHelpers.js";
+import { r as reactExports } from "./__federation_shared_react.js";
 function _mergeNamespaces(n, m) {
   for (var i = 0; i < m.length; i++) {
     const e = m[i];

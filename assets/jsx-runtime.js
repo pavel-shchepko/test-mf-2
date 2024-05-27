@@ -1,4 +1,4 @@
-import { r as reactExports } from "./__federation_shared_react-S49EMBpL.js";
+import { r as reactExports } from "./__federation_shared_react.js";
 var jsxRuntime = { exports: {} };
 var reactJsxRuntime_production_min = {};
 /**

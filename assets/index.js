@@ -1,6 +1,6 @@
-import { importShared } from "./__federation_fn_import-DOZPutyD.js";
-import { j as jsxRuntimeExports } from "./jsx-runtime-CpEPH1zh.js";
-import { B as Button, a as client } from "./Button-F9vc6h9p.js";
+import { importShared } from "./__federation_fn_import.js";
+import { j as jsxRuntimeExports } from "./jsx-runtime.js";
+import { B as Button, a as client } from "./Button.js";
 (function polyfill() {
   const relList = document.createElement("link").relList;
   if (relList && relList.supports && relList.supports("modulepreload")) {

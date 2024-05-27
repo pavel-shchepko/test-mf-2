@@ -353,7 +353,7 @@ function satisfy(version, range) {
   }
   return true;
 }
-const moduleMap = { "react": { get: () => () => __federation_import(new URL("__federation_shared_react-S49EMBpL.js", import.meta.url).href), import: true }, "antd": { get: () => () => __federation_import(new URL("__federation_shared_antd-wtfUe4SH.js", import.meta.url).href), import: true }, "styled-components": { get: () => () => __federation_import(new URL("__federation_shared_styled-components-C1nknNa_.js", import.meta.url).href), import: true } };
+const moduleMap = { "react": { get: () => () => __federation_import(new URL("__federation_shared_react.js", import.meta.url).href), import: true }, "antd": { get: () => () => __federation_import(new URL("__federation_shared_antd.js", import.meta.url).href), import: true }, "styled-components": { get: () => () => __federation_import(new URL("__federation_shared_styled-components.js", import.meta.url).href), import: true } };
 const moduleCache = /* @__PURE__ */ Object.create(null);
 async function importShared(name, shareScope = "default") {
   return moduleCache[name] ? new Promise((r) => r(moduleCache[name])) : await getSharedFromRuntime(name, shareScope) || getSharedFromLocal(name);

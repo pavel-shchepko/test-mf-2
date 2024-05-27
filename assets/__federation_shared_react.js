@@ -1,4 +1,4 @@
-import { g as getDefaultExportFromCjs } from "./_commonjsHelpers-DWwsNxpa.js";
+import { g as getDefaultExportFromCjs } from "./_commonjsHelpers.js";
 var react = { exports: {} };
 var react_production_min = {};
 /**

@@ -1,6 +1,6 @@
-import { importShared } from "./__federation_fn_import-DOZPutyD.js";
-import { j as jsxRuntimeExports } from "./jsx-runtime-CpEPH1zh.js";
-import { c as createRoot, B as Button } from "./Button-F9vc6h9p.js";
+import { importShared } from "./__federation_fn_import.js";
+import { j as jsxRuntimeExports } from "./jsx-runtime.js";
+import { c as createRoot, B as Button } from "./Button.js";
 const { StyleSheetManager } = await importShared("styled-components");
 class ButtonWebComponents extends HTMLElement {
   constructor() {

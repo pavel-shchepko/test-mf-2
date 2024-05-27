@@ -1,5 +1,5 @@
-import { importShared } from "./__federation_fn_import-DOZPutyD.js";
-import { j as jsxRuntimeExports } from "./jsx-runtime-CpEPH1zh.js";
+import { importShared } from "./__federation_fn_import.js";
+import { j as jsxRuntimeExports } from "./jsx-runtime.js";
 const { Modal } = await importShared("antd");
 const openConfirmModal = (props) => {
   Modal.confirm({

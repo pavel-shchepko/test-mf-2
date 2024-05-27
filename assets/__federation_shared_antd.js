@@ -1,7 +1,7 @@
-import { importShared } from "./__federation_fn_import-DOZPutyD.js";
-import { g as getDefaultExportFromCjs, c as commonjsGlobal } from "./_commonjsHelpers-DWwsNxpa.js";
-import { R as ReactDOM, r as reactDomExports, a as ReactDOM$1 } from "./index-2c0iKOci.js";
-import { e as serialize, n as stringify$2, o as compile } from "./Serializer-BkujvPLA.js";
+import { importShared } from "./__federation_fn_import.js";
+import { g as getDefaultExportFromCjs, c as commonjsGlobal } from "./_commonjsHelpers.js";
+import { R as ReactDOM, r as reactDomExports, a as ReactDOM$1 } from "./index2.js";
+import { e as serialize, n as stringify$2, o as compile } from "./Serializer.js";
 var classnames = { exports: {} };
 /*!
 	Copyright (c) 2018 Jed Watson.

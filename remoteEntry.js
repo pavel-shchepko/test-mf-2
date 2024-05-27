@@ -2,11 +2,11 @@ const exportSet = /* @__PURE__ */ new Set(["Module", "__esModule", "default", "_
 let moduleMap = {
   "./web-component": () => {
     dynamicLoadingCss([], false, "./web-component");
-    return __federation_import("./__federation_expose_Web-component-DVtECKdE.js").then((module) => Object.keys(module).every((item) => exportSet.has(item)) ? () => module.default : () => module);
+    return __federation_import("./assets/__federation_expose_Web-component.js").then((module) => Object.keys(module).every((item) => exportSet.has(item)) ? () => module.default : () => module);
   },
   "./open-modal": () => {
     dynamicLoadingCss([], false, "./open-modal");
-    return __federation_import("./__federation_expose_Open-modal-SlsYxYWB.js").then((module) => Object.keys(module).every((item) => exportSet.has(item)) ? () => module.default : () => module);
+    return __federation_import("./assets/__federation_expose_Open-modal.js").then((module) => Object.keys(module).every((item) => exportSet.has(item)) ? () => module.default : () => module);
   }
 };
 const seen = {};
